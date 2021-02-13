@@ -1,0 +1,9 @@
+<h2>Index</h2>
+<?php 
+		echo "<hr>";
+	foreach ($this->view->dados as $key => $value) {
+		echo "<p>".$value['id']. " - ". $value['descricao']." - ". $value['preco']. "</p>" ;
+		echo "<hr>";
+	}
+
+ ?>
